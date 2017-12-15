@@ -1,0 +1,29 @@
+{
+    "request": {
+        "api_url":"https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=The%20sky%20is%20blue&format=json"
+    },
+    "response": {
+        "data": {
+            "status_code":200
+        },
+        "query": {
+            "search": [
+                {
+                    "title":"Sky_blue"
+                },
+                {
+                    "title":"Sky_Blue_Sky"
+                },
+                {
+                    "title":"Blue_Sky"
+                }
+
+            ]
+        }
+    },
+    "response-headers":{
+        "status":200,
+        "ok":true,
+        "content-type":"application/json; charset=utf-8"
+    }
+}
